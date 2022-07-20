@@ -145,3 +145,39 @@ a{
     margin: 20px;
     
 }
+
+/* -------------------------------------------
+--------------------------------------mobile phone */
+
+@media screen and (max-width: 580px) {
+    .container1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .top1{
+        width: 100%;
+    }
+    .top2{
+        width: 100%;
+    }
+    .container2{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .left{
+
+    }
+    .right{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .footer{
+        display: block;
+        padding: 50px;
+    }
+   .rafat{
+    display: block;
+    padding-right: 100px;
+   }
+}
