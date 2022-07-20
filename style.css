@@ -181,3 +181,29 @@ a{
     padding-right: 100px;
    }
 }
+@media screen and (min-width: 581px) and (max-width: 992px) {
+    container1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .top1{
+        width: 100%;
+
+    }
+    .top2{
+        width: 100%
+    }
+    .container2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: aliceblue;
+    }
+    .left{
+
+    }
+    .right{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
